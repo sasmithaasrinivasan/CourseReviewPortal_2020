@@ -1,0 +1,101 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(backimg_1.jpg);
+  background-size: cover;
+}
+
+
+.elecfac .inputElecFac
+{
+  position:relative;
+}
+
+.elecfac
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 10px;
+}
+
+
+.elecfac h2
+{
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.elecfac .inputElecFac select
+{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color:#fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+option{
+  color: #000;
+}
+
+.elecfac .inputElecFac input
+{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color:#fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.elecfac .inputElecFac label
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.elecfac .inputElecFac input:focus ~label,
+.elecfac .inputElecFac input:valid ~label
+{
+  top: -18px;
+  left: 0;
+  color: #f8efd4;
+  font-size: 12px;
+}
+
+.elecfac .inputElecFac select:focus ~label,
+.elecfac .inputElecFac select:valid ~label
+{
+  top: -18px;
+  left: 0;
+  color: #f8efd4;
+  font-size: 12px;
+}
+
+.myBtn{
+  margin-right:  2rem;
+}

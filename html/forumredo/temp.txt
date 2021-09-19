@@ -1,0 +1,24 @@
+<?php include("db.php"); ?>
+<?php
+if(isset($_POST['submit'])) {
+	//$sem = $_POST['country'];
+	$elective = $_POST['state'];
+	$sql = "select * from `feedback` where `Elective_ID`='$elective'";
+	//echo "called";
+	$res = mysqli_query($con, $sql);
+	if(mysqli_num_rows($res) > 0) {
+		
+		while($row = mysqli_fetch_object($res)) {
+			echo " <p style='font-size:2vw'> Student ID:   ".$row->Student_ID."<br> Feedback Data:  ".$row->Feedback_Data."<br> </p> ";
+		}
+	}
+
+	else{
+		echo "NO records";
+	}
+
+} else {
+	//echo "hello";
+	header('location: ./');
+}
+?>

@@ -1,0 +1,132 @@
+body{
+
+}
+
+.right-side,.left-side{
+  height:100vh;
+  width:100%;
+}
+
+.slide,.about{
+  height:50vh;
+  width:100%;
+}
+
+.slide{
+
+}
+
+.about{
+  background-color: #131d39;
+}
+.about-heading{
+  color: #f6f4e6;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5.25rem;
+  margin-left: 9.375rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-des{
+  color: #fddb3a;
+  font-size: 1.25rem;
+  margin-left: 4rem;
+  padding-right: 1.5rem;
+}
+
+.title{
+
+  color: #fddb3a;
+  display:inline-block;
+}
+.right-side{
+  background-color: #131d47;
+}
+
+.logo{
+  position: relative;
+  margin-left: 5rem;
+  margin-top: 1.5rem;
+  width: 18.75rem;
+  margin-right:5rem;
+  left: 3.75rem;
+  display:inline-block;
+  margin-bottom: 5rem;
+}
+
+.Admin
+{
+  position: absolute;
+  margin-left: 7rem;
+  margin-top: 1.5rem;
+  color: #fddb3a;
+}
+
+.Admin:hover{
+  color: yellow;
+}
+
+
+.welCard{
+  margin-bottom: 3rem;
+}
+
+.wel{
+  color:white;
+}
+
+.logDet{
+  padding-left: 125px;
+  padding-right: 125px;
+  font-family: 'Playfair Display', serif;
+  font-weight: medium;
+}
+
+.uid #uid_error
+{
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+#pass_error
+{
+  margin-bottom: 30px;
+  font-size: 10px;
+}
+
+#inputUid{
+  margin-top: 2.5rem;
+}
+
+#inputPassword{
+
+}
+
+#fpass{
+  padding-right: 0;
+  color: #fddb3a;
+}
+
+#fpass:hover{
+  color:yellow;
+}
+
+.btnSignin{
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.newAccount{
+  line-height: 2rem;
+  padding-left: 1rem;
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+.newAcc{
+  color: #fddb3a;
+}
+.newAcc:hover{
+  color: yellow;
+}
